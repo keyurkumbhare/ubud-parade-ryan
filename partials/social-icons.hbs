@@ -1,0 +1,53 @@
+{{#if @site.twitter}}
+  <li class='c-nav__item c-nav__item--social'>
+    <a href='{{ twitter_url }}'>
+      <span class='c-nav__item__icon' data-icon='ei-sc-twitter' data-size='s'></span>
+      <span class='u-hidden-visually'>Twitter</span>
+    </a>
+  </li>
+{{/if}}
+
+{{#if @site.facebook}}
+  <li class='c-nav__item c-nav__item--social'>
+    <a href='{{ facebook_url }}'>
+      <span class='c-nav__item__icon' data-icon='ei-sc-facebook' data-size='s'></span>
+      <span class='u-hidden-visually'>Facebook</span>
+    </a>
+  </li>
+{{/if}}
+
+{{#if @custom.instagram_page}}
+  <li class='c-nav__item c-nav__item--social'>
+    <a href='{{ @custom.instagram_page }}'>
+      <span class='c-nav__item__icon' data-icon='ei-sc-instagram' data-size='s'></span>
+      <span class='u-hidden-visually'>Instagram</span>
+    </a>
+  </li>
+{{/if}}
+
+{{#if @custom.youtube_page}}
+  <li class='c-nav__item c-nav__item--social'>
+    <a href='{{ @custom.youtube_page }}'>
+      <span class='c-nav__item__icon' data-icon='ei-sc-youtube' data-size='s'></span>
+      <span class='u-hidden-visually'>YouTube</span>
+    </a>
+  </li>
+{{/if}}
+
+{{#if @custom.linkedin_page}}
+  <li class='c-nav__item c-nav__item--social'>
+    <a href='{{ @custom.linkedin_page }}'>
+      <span class='c-nav__item__icon' data-icon='ei-sc-linkedin' data-size='s'></span>
+      <span class='u-hidden-visually'>LinkedIn</span>
+    </a>
+  </li>
+{{/if}}
+
+{{#if @custom.telegram_page}}
+  <li class='c-nav__item c-nav__item--social'>
+    <a href='{{ @custom.telegram_page }}'>
+      <span class='c-nav__item__icon' data-icon='ei-sc-telegram' data-size='s'></span>
+      <span class='u-hidden-visually'>Telegram</span>
+    </a>
+  </li>
+{{/if}}
